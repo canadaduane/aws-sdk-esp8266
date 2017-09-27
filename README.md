@@ -51,18 +51,18 @@ You will need to create and add `keys.h` and `keys.cpp` into the `AWSArduinoSDK`
 
 ```
 // keys.h
-#ifndef KEYS_H_
-#define KEYS_H_
+# ifndef KEYS_H_
+# define KEYS_H_
 
 extern const char* awsKeyID;  // Declare these variables to
 extern const char* awsSecKey; // be accessible by the sketch
 
-#endif
+# endif
 ```
 
 ```
 // keys.cpp
-#include "keys.h"
+# include "keys.h"
 
 const char* awsKeyID = "YOUR AWS KEY ID HERE";
 const char* awsSecKey = "YOUR AWS SECRET KEY HERE";
